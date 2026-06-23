@@ -16,27 +16,27 @@
       :root {
         --primary: #f54e00;
         --primary-active: #d04200;
-        --ink: #f7f7f4;
-        --body: #c9c7be;
-        --body-strong: #f7f7f4;
-        --muted: #a09c92;
-        --muted-soft: #807d72;
-        --hairline: rgba(230, 229, 224, 0.14);
-        --hairline-soft: rgba(239, 238, 232, 0.08);
-        --hairline-strong: rgba(207, 205, 196, 0.28);
-        --canvas: #11100d;
-        --canvas-soft: #171612;
-        --surface-card: #1c1b16;
-        --surface-card-soft: #222119;
-        --surface-strong: #26251e;
+        --ink: #26251e;
+        --body: #5a5852;
+        --body-strong: #26251e;
+        --muted: #807d72;
+        --muted-soft: #a09c92;
+        --hairline: #e6e5e0;
+        --hairline-soft: #efeee8;
+        --hairline-strong: #cfcdc4;
+        --canvas: #f7f7f4;
+        --canvas-soft: #fafaf7;
+        --surface-card: #ffffff;
+        --surface-card-soft: #fafaf7;
+        --surface-strong: #e6e5e0;
         --on-primary: #ffffff;
         --timeline-thinking: #dfa88f;
         --timeline-grep: #9fc9a2;
         --timeline-read: #9fbbe0;
         --timeline-edit: #c0a8dd;
         --timeline-done: #c08532;
-        --semantic-error: #ff6688;
-        --semantic-success: #65cfa9;
+        --semantic-error: #cf2d56;
+        --semantic-success: #1f8a65;
         --display-font: "CursorGothic", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
         --mono-font: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       }
@@ -76,7 +76,7 @@
         gap: 18px;
         min-height: 64px;
         padding: 0 clamp(16px, 4vw, 48px);
-        background: rgba(17, 16, 13, 0.92);
+        background: rgba(247, 247, 244, 0.92);
         border-bottom: 1px solid var(--hairline);
         backdrop-filter: blur(20px);
       }
@@ -204,7 +204,7 @@
         padding: 16px 20px;
         border: 1px solid rgba(245, 78, 0, 0.24);
         border-radius: 12px;
-        background: rgba(245, 78, 0, 0.08);
+        background: rgba(245, 78, 0, 0.06);
         color: var(--body);
         line-height: 1.5;
       }
@@ -887,7 +887,7 @@
         ctx.lineCap = "round";
         ctx.lineJoin = "round";
         ctx.lineWidth = 2.4;
-        ctx.strokeStyle = "#f3f5ee";
+        ctx.strokeStyle = "#26251e";
       }
 
       function point(event) {
